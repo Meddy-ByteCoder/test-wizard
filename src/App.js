@@ -6,11 +6,11 @@ import Home from './Pages/Home';
 import Intro from "./Pages/Intro"
 
 function App() {
- const [theme, setTheme] = useState("light")
+  const [appTheme, setAppTheme] = useState("light")
   return (
-    <div className={`App ${theme==="light" ? "" : "dark"}`}>
-      <Header theme={theme} setTheme={setTheme}/>
-      <Home/>
+    <div className={`App ${appTheme === "light" ? "" : "dark"}`}>
+      <Header theme={appTheme} setTheme={setAppTheme} />
+      <Home />
     </div>
   );
 }
