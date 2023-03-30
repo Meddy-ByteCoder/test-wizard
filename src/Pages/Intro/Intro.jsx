@@ -27,7 +27,7 @@ const Intro = () => {
             .to("#introduction", { height: 0 });
     }, [])
 
-    const navigateToPlayGround = ()=>{
+    const navigateToPlayGround = () => {
         navigate('/playground')
     }
 
@@ -50,7 +50,7 @@ const Intro = () => {
                         <img class="logo-main" src="../Assets/Images/logo.avif" alt="logo" />
                     </div>
                     <h1 class="left-text">Test Wizard</h1>
-                    <Button label="Try Test Wizard" onClick={navigateToPlayGround}/>
+                    <Button label="Try Test Wizard" onClick={navigateToPlayGround} />
                 </div>
                 <div class="right">
                     <div class="banner">
