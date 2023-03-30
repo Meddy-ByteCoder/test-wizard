@@ -1,0 +1,42 @@
+
+:root{
+  --primary: #149ECA;
+  --light-font: #F6F7F9;
+  --dark-bg: #23272F;
+  --light-bg: #FFFFFF;
+  --light-panel: #EBECF0;
+  --header:#EBECF0;
+  --dark-header:#374151;
+  --dark-panel: #23272F;
+  --dark-editor: #333A45;
+  --white: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* overflow: hidden; */
+  height: 100vh;
+}
+
+code {
+  font-family:  'Courier New',
+    monospace;
+}
+
+
+/* .container{
+  width: 1300px;
+  margin: auto;
+   border: 1px solid #000;
+} */
+
+.App{
+  position: relative;
+}
